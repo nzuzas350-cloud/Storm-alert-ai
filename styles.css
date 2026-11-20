@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 25px;
+  background: #081522;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #102437;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #50d7e8;
+}
+
+input,
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  margin: 5px 0;
+}
+
+input {
+  width: 65%;
+}
+
+button {
+  background: #50d7e8;
+  font-weight: bold;
+}
+
+#result {
+  line-height: 1.8;
+}
