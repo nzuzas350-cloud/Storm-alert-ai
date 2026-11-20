@@ -1,2 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#081522">
+  <title>STORM ALERT AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>STORM ALERT AI</h1>
+    <p>Check current weather conditions for your city.</p>
+
+    <label for="city">City</label><br>
+    <input id="city" type="text" value="Durban" placeholder="Enter a city">
+    <button type="button" onclick="getWeather()">Check Weather</button>
+
+    <section id="result" aria-live="polite">
+      Loading weather for Durban...
+    </section>
+
+    <p><small>Weather information is provided for general guidance. Follow official weather warnings and local authorities.</small></p>
+  </main>
+</body>
+</html>
